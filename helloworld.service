@@ -1,0 +1,4 @@
+[Unit]
+Description=Say Hello
+[Service]
+ExecStart=/usr/bin/logger -i Hello World
