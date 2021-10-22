@@ -2,5 +2,3 @@
 Description=Say Hello
 [Service]
 ExecStart=/usr/bin/logger -i Hello World
-[Install]
-WantedBy=multi-user.target
